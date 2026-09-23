@@ -32,7 +32,7 @@
 <span class="lang">English</span>
 <h1>Privacy Policy</h1>
 <p class="sub">Kambio — price scanner</p>
-<p class="date">Last updated: 11 August 2026</p>
+<p class="date">Last updated: 23 September 2026</p>
 
 <p>Kambio reads prices with your camera and shows them in your own currency. This
 policy explains, in plain terms, what stays on your phone and what does not.</p>
@@ -41,7 +41,8 @@ policy explains, in plain terms, what stays on your phone and what does not.</p>
   <strong>The short version:</strong> your camera images and everything you scan
   stay on your device and are never uploaded. There is no account and no sign-up.
   The only data that leaves your phone is what our subscription provider needs to
-  know whether you have paid, plus the requests we make to fetch exchange rates.
+  know whether you have paid, anonymous statistics about how the app is used, and
+  the requests we make to fetch exchange rates.
 </div>
 
 <h2>What never leaves your phone</h2>
@@ -82,11 +83,29 @@ These requests contain no personal data and nothing about what you scanned — t
 just ask for the day's rates. As with any internet request, the provider can see
 your IP address. Rates are cached on your device so the app keeps working offline.</p>
 
+<h3>Usage analytics — Google Firebase</h3>
+<p>To see how the app is actually used and where it falls short, we use
+<a href="https://firebase.google.com/" rel="noopener">Google Firebase Analytics</a>.
+It records events such as which screen you opened, whether a scan found a price
+and in which currency, which settings you changed, and whether the subscription
+screen was shown or dismissed. Alongside these, Firebase collects an identifier
+it generates for this app on your device, plus device model, operating system
+version, app version, language and approximate region derived from your IP
+address.</p>
+<p>What is never sent: the prices you scan, the amounts in your journal, camera
+images, and the text recognised from them. A scan event carries only the currency
+and whether a price was found — never the value itself.</p>
+<p>This data is not linked to your identity. There is no account and we do not
+send any user ID. The advertising identifier (IDFA) is not collected, ad
+personalisation is switched off, and the data is not used for advertising.
+Google's policy:
+<a href="https://firebase.google.com/support/privacy" rel="noopener">firebase.google.com/support/privacy</a>.</p>
+
 <h2>What we do not do</h2>
 <ul>
-  <li>No advertising. The app contains no ad networks.</li>
+  <li>No advertising. The app contains no ad networks and does not collect the advertising identifier (IDFA).</li>
   <li>No tracking across other apps or websites, and no data sold or shared with data brokers.</li>
-  <li>No analytics SDK beyond the subscription data described above.</li>
+  <li>No collection of the prices you scan or of your journal entries — the analytics above are about app usage, not about your money.</li>
   <li>No location collection. The app does not request location access.</li>
 </ul>
 
@@ -99,6 +118,7 @@ children under 13.</p>
   <li><strong>Delete everything:</strong> uninstalling the app removes all locally stored scans, journal entries and settings.</li>
   <li><strong>Subscription data:</strong> to request deletion of the subscription record held by Adapty, email us at the address below and we will pass the request on.</li>
   <li><strong>Camera:</strong> you can revoke camera access at any time in iOS Settings. The app simply stops scanning.</li>
+  <li><strong>Usage analytics:</strong> to have the analytics records tied to your device deleted, email us at the address below with the date you installed the app and we will ask Google to delete them.</li>
 </ul>
 
 <h2>Changes</h2>
@@ -114,7 +134,7 @@ will be noted in the app's release notes.</p>
 <span class="lang">Türkçe</span>
 <h1>Gizlilik Politikası</h1>
 <p class="sub">Kambio — fiyat tarayıcı</p>
-<p class="date">Son güncelleme: 11 Ağustos 2026</p>
+<p class="date">Son güncelleme: 23 Eylül 2026</p>
 
 <p>Kambio kameranla fiyatları okuyup kendi para biriminde gösterir. Bu politika,
 telefonunda ne kaldığını ve neyin çıktığını açık bir dille anlatır.</p>
@@ -122,8 +142,9 @@ telefonunda ne kaldığını ve neyin çıktığını açık bir dille anlatır.
 <div class="callout">
   <strong>Kısa hâli:</strong> kamera görüntülerin ve taradığın her şey cihazında
   kalır, hiçbir zaman yüklenmez. Hesap ve kayıt yok. Telefonundan çıkan tek şey,
-  abonelik sağlayıcımızın ödeme yapıp yapmadığını bilmesi için gerekenler ve kur
-  bilgisi çekmek için attığımız isteklerdir.
+  abonelik sağlayıcımızın ödeme yapıp yapmadığını bilmesi için gerekenler,
+  uygulamanın nasıl kullanıldığına dair anonim istatistikler ve kur bilgisi
+  çekmek için attığımız isteklerdir.
 </div>
 
 <h2>Telefonundan hiç çıkmayanlar</h2>
@@ -165,11 +186,29 @@ ve taradığın şeye dair hiçbir bilgi yoktur — sadece günün kurları soru
 Her internet isteğinde olduğu gibi sağlayıcı IP adresini görebilir. Kurlar
 cihazında önbelleğe alınır, böylece uygulama çevrimdışı da çalışır.</p>
 
+<h3>Kullanım analitiği — Google Firebase</h3>
+<p>Uygulamanın gerçekte nasıl kullanıldığını ve nerede yetersiz kaldığını görmek
+için <a href="https://firebase.google.com/" rel="noopener">Google Firebase
+Analytics</a> kullanıyoruz. Hangi ekranı açtığın, bir taramanın fiyat bulup
+bulamadığı ve hangi para biriminde olduğu, hangi ayarları değiştirdiğin, abonelik
+ekranının gösterilip kapatıldığı gibi olaylar kaydedilir. Bunların yanında
+Firebase'in bu uygulama için cihazında ürettiği bir tanımlayıcı ile cihaz modeli,
+işletim sistemi sürümü, uygulama sürümü, dil ve IP adresinden çıkarılan yaklaşık
+bölge bilgisi toplanır.</p>
+<p>Hiçbir zaman gönderilmeyenler: taradığın fiyatlar, günlüğündeki tutarlar,
+kamera görüntüleri ve onlardan okunan metin. Tarama olayı yalnızca para birimini
+ve fiyatın bulunup bulunmadığını taşır, tutarın kendisini asla taşımaz.</p>
+<p>Bu veriler kimliğinle ilişkilendirilmez. Hesap yok ve herhangi bir kullanıcı
+kimliği göndermiyoruz. Reklam tanımlayıcısı (IDFA) toplanmıyor, reklam
+kişiselleştirme kapalı ve veriler reklam amacıyla kullanılmıyor. Google'ın
+politikası:
+<a href="https://firebase.google.com/support/privacy" rel="noopener">firebase.google.com/support/privacy</a>.</p>
+
 <h2>Yapmadıklarımız</h2>
 <ul>
-  <li>Reklam yok. Uygulamada hiçbir reklam ağı bulunmuyor.</li>
+  <li>Reklam yok. Uygulamada hiçbir reklam ağı yok ve reklam tanımlayıcısı (IDFA) toplanmıyor.</li>
   <li>Başka uygulama ve sitelerde takip yok; veri satışı veya veri simsarlarıyla paylaşım yok.</li>
-  <li>Yukarıda anlatılan abonelik verisi dışında analitik SDK'sı yok.</li>
+  <li>Taradığın fiyatlar ve günlük kayıtların toplanmıyor — yukarıdaki analitik, paranı değil uygulama kullanımını ölçer.</li>
   <li>Konum toplanmıyor. Uygulama konum izni istemiyor.</li>
 </ul>
 
@@ -182,6 +221,7 @@ toplamaz.</p>
   <li><strong>Her şeyi sil:</strong> uygulamayı kaldırmak yerel olarak saklanan tüm taramaları, günlük kayıtlarını ve ayarları siler.</li>
   <li><strong>Abonelik verisi:</strong> Adapty'de tutulan abonelik kaydının silinmesini istiyorsan aşağıdaki adresten yaz, talebini iletelim.</li>
   <li><strong>Kamera:</strong> iOS Ayarlar'dan kamera iznini istediğin an geri alabilirsin. Uygulama sadece taramayı bırakır.</li>
+  <li><strong>Kullanım analitiği:</strong> cihazına ait analitik kayıtlarının silinmesini istiyorsan uygulamayı kurduğun tarihle birlikte aşağıdaki adresten yaz, Google'dan silinmesini talep edelim.</li>
 </ul>
 
 <h2>Değişiklikler</h2>
